@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Google OAuth credentials
+credentials.json
+token.json
+
+# React / Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store

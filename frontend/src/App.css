@@ -1,0 +1,52 @@
+.container {
+  max-width: 680px;
+  margin: 60px auto;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  color: #172033;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+input,
+button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+input {
+  border: 1px solid #cbd5e1;
+}
+
+button {
+  border: none;
+  background: #2459d3;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.forecast {
+  margin-top: 28px;
+  padding: 20px;
+  border: 1px solid #dbe2ea;
+  border-radius: 12px;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.note {
+  color: #64748b;
+  font-size: 14px;
+}
